@@ -1,0 +1,64 @@
+& {
+  .mob-btn {
+    display: block;
+  }
+  .registration {
+    img {
+      width: 100%;
+    }
+  }
+  .nav-top {
+    display: none;
+  }
+  .logo {
+    max-width: 250px;
+  }
+  .menu {
+    display: none;
+    clear: both;
+    float: none;
+    margin-top: 50px;
+    li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  #ytplayer {
+    display: none;
+  }
+  .head-title, .uf_detectop-title, .characteristics-title, .video h2, .registration-title {
+    line-height: 1.2;
+    font-size: 30px;
+  }
+  .head-subtitle, .head-info, .uf_detectop-subtitle, .uf_detectop .content p, .uf_detectop .content ul li span,
+  .characteristics-subtitle , .characteristics-subtitle span {
+    font-size: 18px;
+  }
+  header {
+    img {
+      width: 100%;
+    }
+  }
+  .uf_detectop .content ul li span {
+    max-width: 225px;
+  }
+  .uf_detectop .content p, .text-right {
+    text-align: center;
+  }
+  .table-box {
+      overflow-x: scroll;
+  }
+  .video {
+    iframe {
+      height: 315px;
+    }
+  }
+  .registration {
+    img {
+      width: 100%;
+    }
+  }
+  select {
+    width: 100% !important;
+  }
+}

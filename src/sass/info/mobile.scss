@@ -7,9 +7,7 @@
       width: 100%;
     }
   }
-  .nav-top {
-    display: none;
-  }
+
   .logo {
     max-width: 250px;
   }
@@ -60,5 +58,24 @@
   }
   select {
     width: 100% !important;
+  }
+  .characteristics {
+    padding-bottom: 30px;
+  }
+  .video, .registration {
+    padding: 30px 0;
+  }
+  .registration-btn {
+      padding: 5px 10px;
+      font-size: 12px;
+      min-height: 22px;
+      transition: .2s;
+      cursor: pointer;
+      float: right;
+      margin-right: 10px;
+      margin-top: 5px;
+  }
+  .modal {
+    padding: 60px 10px 15px;
   }
 }

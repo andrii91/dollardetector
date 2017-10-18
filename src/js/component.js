@@ -104,6 +104,10 @@ $(document).ready(function () {
         $('.menu').hide();
     });
   };
+  if (viewportWidth < 414) {
+  	$('.registration-btn').remove();
+    $('.menu').append('<li><button class="registration-btn scroll">Купить</button></li>')
+  };
   
     $('.modal-btn').click(function (e) {
     e.preventDefault;

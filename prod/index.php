@@ -73,8 +73,9 @@
               <li class="scroll-m_detectop">Маркер Детектор</li>
               <li class="scroll-characteristics">Характеристики</li>
               <li class="scroll-video">Видео</li>
-              <li><button class="registration-btn scroll">Купить</button></li>
+              
             </ul>
+            <button class="registration-btn scroll">Купить</button>
           </div>
         </div>
       </div>
@@ -322,18 +323,18 @@
                 </div>
                 <div class="element">
                   <select id="payment" class="selectbox payment" data-placeholder="Выберите способ оплаты" placeholder="Выберите способ оплаты" tabindex="3" style="width: 100%">
-						<option value="0" disabled selected>Выберите способ оплаты</option>
-						<option value="pb">Оплата на карту ПриватБанк</option>
-						<option value="lp">Оплата на сайте через ПриватБанк (LiqPay)</option>
-						<option value="np">Оплата при получении</option>
-					</select>
+            <option value="0" disabled selected>Выберите способ оплаты</option>
+            <option value="pb">Оплата на карту ПриватБанк</option>
+            <option value="lp">Оплата на сайте через ПриватБанк (LiqPay)</option>
+            <option value="np">Оплата при получении</option>
+          </select>
                 </div>
                 <div class="element">
                   <select id="shipping" class="selectbox shipping" data-placeholder="Выберите способ доставки" placeholder="Выберите способ доставки" tabindex="4" style="width: 100%">
-						<option value="0" disabled selected>Выберите способ доставки</option>
-						<option value="warehouse">Доставка в отделение Новой Почты</option>
-						<option value="address">Адресная доставка курьером Новой почты</option>
-					</select>
+            <option value="0" disabled selected>Выберите способ доставки</option>
+            <option value="warehouse">Доставка в отделение Новой Почты</option>
+            <option value="address">Адресная доставка курьером Новой почты</option>
+          </select>
                 </div>
                 <div class="element">
                   <select data-placeholder="Выберите город" placeholder="Выберите город" id="city" class="selectbox city" tabindex="5" style="width: 100%;"></select>

@@ -5,6 +5,41 @@
   	& {
      #ytplayer {
       display: block; 
+       width: 250%;
+
     }
+    .uf_detectop .m_detectop {
+			margin-top: 0;
+		}
+    .al-center {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .col6 {
+      float: left;
+      max-width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    .table-box table tr td:first-child {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+.table-box {
+    padding: 10px;
+}
+.table-box table tr td {
+    padding: 5px;
+    font-size: 16px;
+}
+.float-right {
+  float: right;
+}
+#total {
+  font-size: 20px;
 	}
+}
 }

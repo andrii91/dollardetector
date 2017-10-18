@@ -43,9 +43,7 @@
   .uf_detectop .content p, .text-right {
     text-align: center;
   }
-  .table-box {
-      overflow-x: scroll;
-  }
+
   .video {
     iframe {
       height: 315px;
@@ -78,4 +76,48 @@
   .modal {
     padding: 60px 10px 15px;
   }
+  .uf_detectop .m_detectop {
+      margin-top: 30px;
+    }
+    .al-center {
+      position: static;
+    }
+    .col6 {
+    float: none;
+    max-width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .table-box {
+    padding: 0;
+  }
+  .table-box table tr td, .table-box table tr td:first-child {
+    padding: 2px;
+    font-size: 8px;
+  }
+  .table-box ul {
+    
+    padding-left: 25px;
+
+  }
+  .table-box * {
+      font-size: 8px;
+      line-height: 1;
+
+  }
+  .countbox {
+    float: right;
+    width: 20%;
+}
+#shipping_cost {
+  font-size: 12px;
+  line-height: 1;
+}
+.registration-box {
+  padding: 10px;
+}
+.old-sum {
+  margin-top: -70px;
+}
 }

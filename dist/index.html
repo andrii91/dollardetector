@@ -100,10 +100,10 @@
       <div class="container">
         <div class="uf_detectop-box">
           <div class="row align-items-center">
-            <div class="col-md-6 col-lg-6">
+            <div class="col6 ">
               <img src="images/1.jpg" alt="">
             </div>
-            <div class="col-md-6 col-lg-6">
+            <div class="col6 ">
               <h2 class="uf_detectop-title">УФ Детектор</h2>
               <h4 class="uf_detectop-subtitle">UV Detector Cap</h4>
               <div class="content">
@@ -114,8 +114,11 @@
               </div>
             </div>
           </div>
-          <div class="row align-items-center">
-            <div class="col-md-6 col-lg-6">
+          <div class="relative ">
+          <div class="col6 float-right">
+              <img src="images/2.jpg" alt="">
+            </div>
+            <div class="col6 al-center">
               <h4 class="uf_detectop-subtitle">УФ Детектор можно использовать для проверки подлинности таких документов как:</h4>
               <div class="content">
                 <ul>
@@ -146,15 +149,13 @@
                 </ul>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6">
-              <img src="images/2.jpg" alt="">
-            </div>
+            <div class="clear"></div>
           </div>
           <div class="row align-items-center m_detectop">
-            <div class="col-md-6 col-lg-6">
+            <div class="col6">
               <img src="images/jnkjn.jpg" alt="">
             </div>
-            <div class="col-md-6 col-lg-6">
+            <div class="col6">
               <h2 class="uf_detectop-title">Маркер Детектор</h2>
               <h4 class="uf_detectop-subtitle">The Original Counterfeit Detector Pen</h4>
               <div class="content">
@@ -164,8 +165,11 @@
               </div>
             </div>
           </div>
-          <div class="row align-items-center">
-            <div class="col-md-6 col-lg-6">
+          <div class=" relative align-items-center">
+            <div class="col6 float-right">
+              <img src="images/2.jpg" alt="">
+            </div>
+            <div class="col6 al-center">
               <h4 class="uf_detectop-subtitle">Сделайте небольшую отметку на банкноте доллара США (USD)</h4>
               <div class="content">
                 <div class="row align-items-center">
@@ -187,9 +191,8 @@
                 <p class="mt20">В течении 10 часов на подлинной банкноте<br> не останется и следа от отметки.</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-6">
-              <img src="images/2.jpg" alt="">
-            </div>
+            <div class="clear"></div>
+
           </div>
         </div>
       </div>
@@ -337,8 +340,8 @@
 					</select>
                 </div>
                 <div class="element">
-                  <select data-placeholder="Выберите город" placeholder="Выберите город" id="city" class="selectbox city" tabindex="5" style="width: 100%;"></select>
-                </div>
+                 <select data-placeholder="Выберите город" placeholder="Выберите город" id="city" class="selectbox city" tabindex="5" style="width: 100%;"></select>
+               </div>
                 <div class="element">
                   <select data-placeholder="Выберите отделение" placeholder="Выберите отделение" id="warehouse" class="selectbox warehouse" tabindex="6" style="width: 100%; "></select>
                   <input id="address" placeholder="Укажите адрес для доставки" class="inputbox address" name="address" tabindex="7" type="text" style="display: none;" />
@@ -358,11 +361,11 @@
                   </div>
                   <div class="old-sum">
                     <?php if ($oldprice!=0) : ?>
-                    <strike><span id="old"><?=$oldprice ?></span><span id="curold"> грн.</span></strike>
+                    <strike><span id="old"><?=$oldprice ?>222</span><span id="curold"> грн.</span></strike>
                     <?php endif ?>
                   </div>
                   <div class="total-sum">
-                    <span id="total"><?=$startsum ?></span><span id="cur"> грн.</span>
+                    <span id="total"><?=$startsum ?>555</span><span id="cur"> грн.</span>
                   </div>
                   <input type="hidden" name="totalsum" id="totalsum" value="<?=$startsum ?>" />
                   <input type="hidden" name="oldprice" id="oldprice" value="<?=$oldprice ?>" />

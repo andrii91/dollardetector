@@ -87,7 +87,7 @@ body {
     right: 0;
     bottom: 0;
     background: #fff;
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 1;
 }
 
@@ -135,6 +135,7 @@ header {
     cursor: pointer;
     margin: 0 10px;
     transition: 0.2s;
+    color: #7F7F7F;
     &:hover {
       color: #55AE7B;
     }
@@ -454,7 +455,7 @@ main {
 
 .delim {
     margin-top: 17px;
-    width: 98.36%;
+    width: 100%;
     background-color: transparent;
     border-color: #eaeaea;
     border-style: solid;
@@ -801,4 +802,26 @@ opacity: 1;
     left: 0;
     margin-top: -1.5px;
 }
+}
+.col6 {
+  float: left;
+  max-width: 50%;
+  img {
+    width: 100%;
+  }
+}
+.float-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.relative {
+  position: relative;
+
+}
+.al-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(0%);
 }
